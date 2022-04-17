@@ -1,0 +1,38 @@
+.container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 306px;
+}
+h1{
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    color: yellow;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans Regular';
+}
+.cell{
+    border: 2.5px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 55px;
+    cursor: pointer;
+    user-select: none;
+}
+.cell.highlight{
+    background-color: rgb(76, 17, 17);
+}
+body{
+    background-color: brown;
+}
+
+#reset{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
